@@ -1,0 +1,22 @@
+{
+  "name": "quaternion-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src --watch",
+    "build": "tsc"
+  },
+  "author": "Hotaru <me@hotaru.icu>",
+  "license": "GPL-3.0",
+  "files": [
+    "dist",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "typescript": "^5.5.4"
+  }
+}
